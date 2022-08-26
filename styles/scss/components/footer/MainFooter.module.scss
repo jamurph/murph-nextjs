@@ -1,0 +1,26 @@
+@use 'sass:color';
+@import '/styles/_variables.scss';
+
+.footerContainer {
+    border-radius: 20px;
+}
+
+.contactLink {
+    background: #212121;
+    border: 1px solid ;
+    padding: 15px 20px;
+    width: 75%;
+    max-width: 290px;
+    margin: 10px auto;
+    text-decoration: none !important;
+    color: $secondary;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    transition: all .2s linear;
+}
+
+.contactLink:hover {
+    box-shadow: 0px 0px 20px 0px color.adjust($secondary, $alpha: -0.7);
+    color: color.adjust($secondary, $lightness: 10%) !important;
+    border-color: color.adjust($secondary, $lightness: 10%);
+}

@@ -1,0 +1,54 @@
+@use 'sass:color';
+@import '/styles/_variables.scss';
+
+
+.liContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: .3s all ease-in-out;
+
+    .liImage {
+        transform: translate(-50px, 0px);
+        transition: .3s all ease-in-out;
+        pointer-events: none;
+    }
+
+    .liArrow {
+        transition: .3s all ease-in-out;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:hover, &:focus  {
+        box-shadow: 0px 0px 40px 0px color.adjust($secondary, $alpha: -0.7) !important;
+
+        .liImage{
+            transform: translate(0px, 0px);
+            box-shadow: none !important;
+        }
+
+        .liArrow {
+            transform: translate(-15px,0px);
+            color: #ffffff !important;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 991.99px) {
+    
+    .liContainer{
+
+        .liImage {
+            transform: translate(0px, -50px);
+        }
+
+    }
+
+}
+
+
+
+

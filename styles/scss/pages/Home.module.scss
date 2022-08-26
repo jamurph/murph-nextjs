@@ -1,0 +1,23 @@
+
+
+.portraitBubble {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0px 0px 70px 0px #eedaaf33 !important
+}
+
+.cardImg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.cardHeadText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 10px black;
+}

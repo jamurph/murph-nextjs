@@ -1,0 +1,23 @@
+@import '/styles/_variables.scss';
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+
+
+/* override btn-primary */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-color: #fff;
+  --bs-btn-disabled-color: #fff;
+}
+
+
+html, body {
+  font-size: 18px;
+}
+
+.bg-dark-accent {
+  background: $darkAccentColor;
+}
+
+
