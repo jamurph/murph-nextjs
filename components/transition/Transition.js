@@ -5,14 +5,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 export default function Transition({children}){
     //props to letsbuildui.dev for instruction on this animation
     const {asPath} = useRouter();
-    console.log(asPath);
     
     const variants = {
         inactive: {
             opacity: 1,
             y: 0,
             transition: {
-                duration: 1,
+                duration: 0.5,
                 ease: 'easeInOut'   
             }
         },
@@ -20,7 +19,7 @@ export default function Transition({children}){
             opacity: 0,
             y: -100,
             transition: {
-              duration: 1,
+              duration: 0.5,
               ease: 'easeInOut'
             }
         },
@@ -28,7 +27,7 @@ export default function Transition({children}){
             y: 100,
             opacity: 0,
             transition: {
-              duration: 1,
+              duration: 0.5,
               ease: 'easeInOut'
             }
         },

@@ -20,10 +20,10 @@ export default function GlobalLayout({title,description,children}) {
                         </div>
                         
                         <div style={{'position': 'relative', zIndex: '0', paddingTop: '85px', flexGrow: '1'}}>
-                        <Transition>{children}</Transition>
+                            <Transition>{children}</Transition>
                         </div>
                         <div style={{'position': 'relative', zIndex: '1'}}>
-                            <MainFooter />
+                            <Transition><MainFooter /></Transition>
                         </div>
                     </div>
                 

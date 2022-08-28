@@ -15,12 +15,11 @@ import Link from 'next/link'
 
 export default function HeaderNavigation() {
     return (
-        <Navbar expand='lg' className="fixed-top shadow text-dark bg-light">
+        <Navbar collapseOnSelect={true} expand='lg' className="fixed-top shadow text-dark bg-light">
             <Container>
                 <Link href="/" passHref>
                 <Navbar.Brand href='/' className="navbar-brand d-flex align-items-center">
                     <Image className={style.ballLightning} src={logo} width='60px' height='60px' alt="" />    
-                    
                 </Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="navbarText">
@@ -30,12 +29,12 @@ export default function HeaderNavigation() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="navbarText">
                     <Nav className="mb-2 mb-lg-0 fs-5 w-100 justify-content-evenly">
-                        <Link href='/about' passHref><Nav.Link className='text-center' ><FontAwesomeIcon className='text-secondary' icon={faCircleInfo} /> About Me</Nav.Link></Link>
-                        <Link href='/thoughts' passHref><Nav.Link className='text-center' ><FontAwesomeIcon className='text-secondary' icon={faBrain} /> Thoughts</Nav.Link></Link>
-                        <Link href='/experiments' passHref><Nav.Link className='text-center' ><FontAwesomeIcon className='text-secondary' icon={faFlask} /> Web Experiments</Nav.Link></Link>
+                        <Link href='/about' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faCircleInfo} /> About Me</Nav.Link></Link>
+                        <Link href='/thoughts' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faBrain} /> Thoughts</Nav.Link></Link>
+                        <Link href='/experiments' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faFlask} /> Web Experiments</Nav.Link></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-    )
+    );
   }
