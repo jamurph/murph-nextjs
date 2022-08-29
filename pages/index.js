@@ -24,32 +24,31 @@ export default function Home() {
               <div className={`${style.portraitBubble} bg-secondary mt-5 border border-3 border-secondary overflow-hidden`}>
                 <Image src={self} layout='responsive' placeholder='blur' alt=""/>
               </div>
-              <p className='text-center text-secondary mt-3 mb-5 fs-4'>I'm Jacob Murphy.</p>
+              <p className='text-center text-secondary mt-3 mb-5 fs-4'>{`I'm Jacob Murphy.`}</p>
               <div className="rounded-4 overflow-hidden bg-light text-dark text-start p-4 shadow-lg mt-5">
                 <h1 className='text-center mt-3'>They call me <span className="text-primary">Murph</span>.</h1>
                 <div className='text-left my-4 px-3'>
-                  <p>
+                  <p>{`
                     It is a tragedy that, before one knows what they want, they are required to make choices as to who they want to be. 
                     I gambled on Computer Science. I struck gold.
-                  </p>
-                  <p>
-                    I learned that what I wanted was to explore. I found in Computer Science both open sea and compass. Everything needed for adventure and discovery was at my fingertips.
-                  </p>
-                  <p>
+                    `}</p>
+                  <p>{`I learned that what I wanted was to explore. I found in Computer Science both open sea and compass. Everything needed for adventure and discovery was at my fingertips.
+                    `}</p>
+                  <p>{`
                     Currently, I work for <a target="_blank" href="https://www.brookwoodchurch.org/" rel="noreferrer">Brookwood Church</a>. 
                     As the sole developer for a large church, I am responsible for everything from database administration, reporting, and workflow automation to front-end website development and copywriting.
-                  </p>
+                    `}</p>
                   <p>
-                    In addition to my work at Brookwood, I've engaged in a side project called <a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>.
+                    {`In addition to my work at Brookwood, I've engaged in a side project called <a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>.
                     StemmaStudy lets you make what I've designated "Connected Flashcards" online. It's a method of studying that integrates many different <a target="_blank" href="https://stemmastudy.com/learn" rel="noreferrer">human learning principles</a> in a cohesive way.
-                    Long story short: it's a better way to learn things.
+                    Long story short: it's a better way to learn things.`}
                   </p>
                   <p>
-                    I like to solve daunting problems and try new, daring things. 
+                    {`I like to solve daunting problems and try new, daring things. 
                     I would rather effortfully engage in risky, rational leaps than take comfortable, unquestionable steps. The preferred object of my work is a hypothesis, not an axiom.
-                  </p>
-                  <p>This website is my sketchpad and my laboratory. It is where I embark on new ideas and explore possibilities before creating the actualities that will empower others. 
-                    This website is a portal into the innermost recesses of my mind. Pardon the mess.</p>
+                  `}</p>
+                  <p>{`This website is my sketchpad and my laboratory. It is where I embark on new ideas and explore possibilities before creating the actualities that will empower others. 
+                    This website is a portal into the innermost recesses of my mind. Pardon the mess.`}</p>
                 </div>
                 
                 
