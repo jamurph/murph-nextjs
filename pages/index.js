@@ -29,18 +29,17 @@ export default function Home() {
                 <h1 className='text-center mt-3'>They call me <span className="text-primary">Murph</span>.</h1>
                 <div className='text-left my-4 px-3'>
                   <p>{`
-                    It is a tragedy that, before one knows what they want, they are required to make choices as to who they want to be. 
-                    I gambled on Computer Science. I struck gold.
+                    We make choices as to who we want to be before we really know what we want. I gambled on learning Computer Science, and it's working out so far.
                     `}</p>
-                  <p>{`I learned that what I wanted was to explore. I found in Computer Science both open sea and compass. Everything needed for adventure and discovery was at my fingertips.
+                  <p>{`I have learned that what I want is to explore. I've found in Computer Science both open sea and compass. Everything needed for adventure and discovery is at my fingertips.
                     `}</p>
                   <p>{`
-                    Currently, I work for <a target="_blank" href="https://www.brookwoodchurch.org/" rel="noreferrer">Brookwood Church</a>. 
+                    Currently, I work for `}<a target="_blank" href="https://www.brookwoodchurch.org/" rel="noreferrer">Brookwood Church</a>. {` 
                     As the sole developer for a large church, I am responsible for everything from database administration, reporting, and workflow automation to front-end website development and copywriting.
                     `}</p>
                   <p>
-                    {`In addition to my work at Brookwood, I've engaged in a side project called <a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>.
-                    StemmaStudy lets you make what I've designated "Connected Flashcards" online. It's a method of studying that integrates many different <a target="_blank" href="https://stemmastudy.com/learn" rel="noreferrer">human learning principles</a> in a cohesive way.
+                    {`In addition to my work at Brookwood, I've engaged in a side project called `}<a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>{`.
+                    StemmaStudy lets you make what I've designated "Connected Flashcards" online. It's a method of studying that integrates many different `}<a target="_blank" href="https://stemmastudy.com/learn" rel="noreferrer">human learning principles</a>{` in a cohesive way.
                     Long story short: it's a better way to learn things.`}
                   </p>
                   <p>
@@ -65,7 +64,7 @@ export default function Home() {
           <Row>
             <Col xs={12} lg={{span: 5, offset:1}} className='mt-5'>
               <div className="rounded-4 overflow-hidden bg-transparent text-dark text-center shadow-lg h-100 d-flex flex-column">
-                  <Image className={`${style.cardImg} `} src={thoughtPic} layout='responsive' placeholder='blur'/>
+                  <Image className={`${style.cardImg} `} src={thoughtPic} layout='responsive' placeholder='blur' alt=""/>
                   <div className='bg-light flex-grow-1'>
                   <div className="p-4 d-flex flex-column justify-content-between h-100">
                     <p className='my-4 fs-5'>I find some ideas worth writing about.</p>
@@ -80,7 +79,7 @@ export default function Home() {
             </Col>
             <Col xs={12} lg={{span: 5}} className='mt-5'>
               <div className="rounded-4 overflow-hidden bg-transparent text-dark text-center shadow-lg h-100 d-flex flex-column">
-                <Image className={`${style.cardImg}`} src={experimentPic} layout='responsive' placeholder='blur'/>
+                <Image className={`${style.cardImg}`} src={experimentPic} layout='responsive' placeholder='blur' alt=""/>
                 <div className='bg-light flex-grow-1'>
                   <div className="p-4 d-flex flex-column justify-content-between h-100">
                     <p className='my-4 fs-5'>This is my playground for digital exploration.</p>
@@ -91,6 +90,14 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center mt-5 text-center">
+            <Col xs={12} lg={{span: 5}} >
+              <div className='bg-dark p-5 text-light rounded-4 shadow-lg border border-1 border-secondary'>
+                <h2 className="mb-4">MXM is an Ethos.</h2>
+                <Link href="/thoughts/embark-explore-empower"><a className={`${style.mxm}`}>Learn More</a></Link>
               </div>
             </Col>
           </Row>

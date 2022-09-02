@@ -17,11 +17,13 @@ export default function HeaderNavigation() {
     return (
         <Navbar collapseOnSelect={true} expand='lg' className="fixed-top shadow text-dark bg-light">
             <Container>
-                <Link href="/" passHref>
-                <Navbar.Brand href='/' className="navbar-brand d-flex align-items-center">
-                    <Image className={style.ballLightning} src={logo} width='60px' height='60px' alt="" />    
-                </Navbar.Brand>
-                </Link>
+                    <Navbar.Brand className="navbar-brand d-flex align-items-center">
+                        <Link href="/" passHref>
+                            <Nav.Link style={{display: 'inherit'}}>
+                                <Image className={style.ballLightning} src={logo} width='60px' height='60px' alt="" />    
+                            </Nav.Link>
+                        </Link>
+                    </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarText">
                     <div className='d-flex align-items-center'>
                         <span className='me-1 fs-6'>Menu</span> <span className="navbar-toggler-icon"></span>

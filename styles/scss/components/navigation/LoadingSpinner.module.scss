@@ -1,0 +1,76 @@
+@use 'sass:color';
+@import '/styles/_variables.scss';
+ 
+
+.Loader {
+    display: block;
+    position: fixed; 
+    z-index: 100000; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: color.adjust($dark, $alpha: -0.6);
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all .5s ease-in-out;
+    
+    &.isLoading {
+        opacity: 1;
+
+        .lightLoader {
+            position: absolute;
+            top: calc(50vh - 75px);
+            left: calc(50% - 75px);
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .lightLoader:before,
+          .lightLoader:after {
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            animation: pulsOut 1.5s ease-in-out infinite;
+            filter: drop-shadow(0 0 20px color.adjust($light, $alpha: -0.25, $lightness: 10%));
+          }
+          .lightLoader:before {
+            width: 100%;
+            padding-bottom: 100%;
+            box-shadow: inset 0 0 0 20px $light;
+            animation-name: pulsIn;
+          }
+          .lightLoader:after {
+            width: calc(100% - 40px);
+            padding-bottom: calc(100% - 40px);
+            box-shadow: 0 0 0 0 $light;
+          }
+        
+          @keyframes pulsIn {
+            0% {
+              box-shadow: inset 0 0 0 20px color.adjust($light, $alpha: -0.4);
+              opacity: 1;
+            }
+            50%, 100% {
+              box-shadow: inset 0 0 0 0 color.adjust($light, $alpha: -0.4);
+              opacity: 0;
+            }
+          }
+        
+          @keyframes pulsOut {
+            0%, 50% {
+              box-shadow: 0 0 0 0 color.adjust($light, $alpha: -0.4);
+              opacity: 0;
+            }
+            100% {
+              box-shadow: 0 0 0 20px color.adjust($light, $alpha: -0.4);
+              opacity: 1;
+            }
+          }
+    }
+
+}

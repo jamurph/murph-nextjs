@@ -18,7 +18,7 @@ export default function MainFooter() {
             <Container className={`${styles.footerContainer} text-light p-4 p-md-5 shadow-lg bg-dark`} style={{ minHeight:'400px'}} >
                 <Row>
                     <Col xs={12} lg={{span: 6}}  >
-                        <Image className='border rounded-3 border-secondary' src={godspeed} layout='responsive' placeholder='blur'/>
+                        <Image className='border rounded-3 border-secondary' src={godspeed} layout='responsive' placeholder='blur' alt=""/>
                     </Col>
                     <Col xs={12} lg={{span: 6}}   className='text-center my-5 d-flex flex-column'>
                         <h2>Contact Me</h2>
