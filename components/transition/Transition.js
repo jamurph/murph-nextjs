@@ -8,6 +8,7 @@ export default function Transition({children}){
     
     const variants = {
         inactive: {
+            filter: "none",
             opacity: 1,
             y: 0,
             transition: {
@@ -16,6 +17,7 @@ export default function Transition({children}){
             }
         },
         out: {
+            filter: "blur(5px)",
             opacity: 0,
             y: -100,
             transition: {
@@ -24,6 +26,7 @@ export default function Transition({children}){
             }
         },
         in: {
+            filter: "blur(5px)",
             y: 100,
             opacity: 0,
             transition: {

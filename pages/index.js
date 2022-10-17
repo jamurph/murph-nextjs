@@ -28,14 +28,10 @@ export default function Home() {
               <div className="rounded-4 overflow-hidden bg-light text-dark text-start p-4 shadow-lg mt-5">
                 <h1 className='text-center mt-3'>They call me <span className="text-primary">Murph</span>.</h1>
                 <div className='text-left my-4 px-3'>
-                  <p>{`
-                    We make choices as to who we want to be before we really know what we want. I gambled on learning Computer Science, and it's working out so far.
-                    `}</p>
-                  <p>{`I have learned that what I want is to explore. I've found in Computer Science both open sea and compass. Everything needed for adventure and discovery is at my fingertips.
-                    `}</p>
+                  <p>{`I'm a software creator and explorer of ideas.`}</p>
                   <p>{`
                     Currently, I work for `}<a target="_blank" href="https://www.brookwoodchurch.org/" rel="noreferrer">Brookwood Church</a>. {` 
-                    As the sole developer for a large church, I am responsible for everything from database administration, reporting, and workflow automation to front-end website development and copywriting.
+                    As the sole developer for a large church, I am responsible for everything from database administration, reporting, and workflow automation to front-end website development and (sometimes) copywriting.
                     `}</p>
                   <p>
                     {`In addition to my work at Brookwood, I've engaged in a side project called `}<a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>{`.

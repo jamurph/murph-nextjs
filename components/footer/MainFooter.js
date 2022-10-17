@@ -1,7 +1,7 @@
 import styles from '../../styles/scss/components/footer/MainFooter.module.scss'
 import Image from 'next/image'
 
-import godspeed from '../../public/images/hero/godspeed.png'
+import godspeed from '../../public/images/hero/godspeed.jpg'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
