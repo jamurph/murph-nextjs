@@ -148,7 +148,7 @@ export default function About() {
                         <h6>mxm.dev</h6>
                         <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
                         <div className="mb-3">
-                          { "NextJS,HTML,CSS,JSX,React,React Bootstrap,CSS Modules,Javascript,Strapi CMS,Sass,Hosting with Render".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>) }
+                          { "NextJS,HTML,CSS,JSX,React,React Bootstrap,CSS Modules,Javascript,Strapi CMS,Sass,Hosting with Render and Vercel".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>) }
                         </div>
                       </div>
                     </Col>
