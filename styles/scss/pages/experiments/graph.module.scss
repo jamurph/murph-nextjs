@@ -1,0 +1,10 @@
+
+@import '/styles/_variables.scss';
+
+
+.graphBox {
+    width: 100%;
+    min-height: 400px;
+    height: 50vh;
+    background: $dark;
+}

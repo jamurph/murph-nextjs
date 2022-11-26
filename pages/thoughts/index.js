@@ -8,6 +8,7 @@ import bg from '../../public/images/background/gold-white-smoke.png'
 
 import { getStrapiMedia } from '../../lib/media.js'
 import MXMListItem from '../../components/MXMListItem.js'
+import { Container } from 'react-bootstrap'
 
 export default function Thoughts({articles}) {
   let listArticles = [];
@@ -20,13 +21,13 @@ export default function Thoughts({articles}) {
 
   return (
       <div>
-        <div className="container text-light">
+        <Container className="text-light">
           <h1 className='text-center mt-5'>
             Thoughts.
           </h1>
           <p className='text-center mb-5'>This is what sometimes comes out of my brain.</p>
           {listArticles}
-        </div>
+        </Container>
 
       </div>
   )

@@ -69,7 +69,7 @@ export default function About() {
                         <Col xs={12} lg={{span: 8, offset: 2}}>
                           <p>I had to be one of my teachers' most dissapointing students. I always got by with decent grades, but I was unmotivated to learn. I wouldn't do homework and I never really gave any meaningful effort. </p>
                             <p>Still, I valued good grades and I wanted to do something worthwhile with my life, so I saw the value in things like AP classes.</p>
-                            <p>I didn't technically meet the requirements for the AP Computer Science class. Yet, one of those teachers I disappointed regularly to put me through anyways. Thank God.</p>
+                            <p>I didn't technically meet the requirements for the AP Computer Science class. Yet, one of those teachers I disappointed regularly put me through anyways. Thank God.</p>
                             <p>I found a fire in myself while studying computer science. I was hungry to learn more. I experimented. I wrote prank programs that went fullscreen on my friends and resisted being closed. I would think about AP CS in other classes and would literally go home and read <em>Teach Yourself Java</em> (it was cool at the time) and watch <em>too many</em> online tutorials (including <a href="https://www.youtube.com/watch?v=Hl-zzrqQoSE&list=PLFE2CE09D83EE3E28&ab_channel=thenewboston">thenewboston</a>, of course).
                             </p>
                             <p>In CS, I finally found something I was motivated to learn more about and I established the very fruitful habit of engaging in edifying personal explorations on my own.</p>
