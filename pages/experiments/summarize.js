@@ -97,7 +97,7 @@ Like a prisoner who dreams that he is free, starts to suspect that it is merely 
             </h3>
             <p className='text-center mb-5'>What? You expect me to read the whole thing?</p>
             <p>This page uses an extractive text algorithm to pull out sentences from an article that it sees as contributing the most to the overall meaning.</p>
-            <p>It works well, sometimes. I would not use it for anything serious &ndash; it is just a fun toy.</p>
+            <p>I would not use it for anything serious &ndash; it is just a fun toy. The library used is a Javascript library, and Javascript is not the language of choice for any Natural Language tasks (which would be python).</p>
             <p>The default text is an excerpt from Descartes&apos; <em>Meditations</em>.</p>
 
             <div className="bg-dark p-5 mt-5 shadow-lg rounded-4 mb-4">

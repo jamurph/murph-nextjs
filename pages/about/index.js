@@ -28,11 +28,11 @@ export default function About() {
             <Col xs={12} lg={7} className='mt-3'>
               <div className='bg-light rounded-4 h-100 text-dark p-3 p-sm-5 d-flex flex-column justify-content-center shadow-lg'>
                 <p>
-                  There's something that feels odd about writing a page "About Me." I've spent my entire lifetime with myself, and, yet, 
-                  I don't think I could give you a definitive description as to "who I am". I still surprise myself. Plus, open questions are always more interesting.
+                  There's something that feels odd about writing a page "About Me." I'm not sure I'm capable of giving a good self-description that is both complete and useful.
                 </p>
-                <p>Besides, people are always changing. If an ultimate, complete description of who I am could fit on this page, it wouldn't be worth reading.</p>
-                <p className='mb-0'>{`So, rather than pigeonhole myself, I'll just tell you where I've been, what I've done, and about the matters that make me move.`}</p>
+                <p>I'm not confused &ndash; I just still surprise myself!</p>
+                <p>I think the aphorism "Know Thyself" is a task which one can always make meaningful progress on but never complete &ndash; the goal shifts as you grow. If I could really write out on this page a complete description of who I am, it wouldn't be worth reading.</p>
+                <p className='mb-0'>{`Instead, I'll just tell you where I've been, what I've done, and about the matters that make me move.`}</p>
               </div> 
             </Col>
           </Row>
@@ -236,7 +236,7 @@ export default function About() {
 
 About.getLayout = function getLayout(page) {
   return (
-    <GlobalLayout title={'About | Murph'} description={'The best website ever.'}>
+    <GlobalLayout title={'About | Murph'} description={'I am a Software Developer.'}>
       {page}
     </GlobalLayout>
   )

@@ -28,13 +28,13 @@ export default function Home() {
               <div className="rounded-4 overflow-hidden bg-light text-dark text-start p-4 shadow-lg mt-5">
                 <h1 className='text-center mt-3'>They call me <span className="text-primary">Murph</span>.</h1>
                 <div className='text-left my-4 px-3'>
-                  <p>{`I'm a software creator and explorer of ideas.`}</p>
+                  <p>{`I'm a software developer.`}</p>
                   <p>{`
-                    Currently, I work for `}<a target="_blank" href="https://www.brookwoodchurch.org/" rel="noreferrer">Brookwood Church</a>. {` 
+                    I work for `}<a target="_blank" href="https://www.brookwoodchurch.org/" rel="noreferrer">Brookwood Church</a>. {` 
                     As the sole developer for a large church, I am responsible for everything from database administration, reporting, and workflow automation to front-end website development and (sometimes) copywriting.
                     `}</p>
                   <p>
-                    {`In addition to my work at Brookwood, I've engaged in a side project called `}<a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>{`.
+                    {`In addition to my work at Brookwood, I've started `}<a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>{`.
                     StemmaStudy lets you make what I've designated "Connected Flashcards" online. It's a method of studying that integrates many different `}<a target="_blank" href="https://stemmastudy.com/learn" rel="noreferrer">human learning principles</a>{` in a cohesive way.
                     Long story short: it's a better way to learn things.`}
                   </p>
@@ -42,8 +42,7 @@ export default function Home() {
                     {`I like to solve daunting problems and try new, daring things. 
                     I would rather effortfully engage in risky, rational leaps than take comfortable, unquestionable steps. The preferred object of my work is a hypothesis, not an axiom.
                   `}</p>
-                  <p>{`This website is my sketchpad and my laboratory. It is where I embark on new ideas and explore possibilities before creating the actualities that will empower others. 
-                    This website is a portal into the innermost recesses of my mind. Pardon the mess.`}</p>
+                  <p>{`This website is my sketchpad and my laboratory. It is a portal into the innermost recesses of my mind. Pardon the mess.`}</p>
                 </div>
                 
                 
@@ -81,7 +80,7 @@ export default function Home() {
                     <p className='my-4 fs-5'>This is my playground for digital exploration.</p>
                     <div className='text-center mb-3'>
                       <Link href="/experiments" passhref>
-                        <Button variant="primary">Tinker with my Creations</Button>
+                        <Button variant="primary">Tinker Around</Button>
                       </Link>
                     </div>
                   </div>
@@ -92,7 +91,7 @@ export default function Home() {
           <Row className="justify-content-center mt-5 text-center">
             <Col xs={12} lg={{span: 5}} >
               <div className='bg-dark p-5 text-light rounded-4 shadow-lg border border-1 border-secondary'>
-                <h2 className="mb-4">MXM is an Ethos.</h2>
+                <h2 className="mb-4">MXM is my Ethos.</h2>
                 <Link href="/thoughts/embark-explore-empower"><a className={`${style.mxm}`}>Learn More</a></Link>
               </div>
             </Col>
@@ -104,7 +103,7 @@ export default function Home() {
 
 Home.getLayout = function getLayout(page) {
   return (
-    <GlobalLayout title={'Homepage | Murph'} description={'The best website ever.'}>
+    <GlobalLayout title={'Homepage | Murph'} description={'Jacob Murphy: Software Developer and Idea Lover.'}>
       {page}
     </GlobalLayout>
   )
