@@ -31,7 +31,7 @@ export default function About() {
                   There's something that feels odd about writing a page "About Me." I'm not sure I'm capable of giving a good self-description that is both complete and useful.
                 </p>
                 <p>I think the aphorism "Know Thyself" is a task which one can always make meaningful progress on but never complete &ndash; the goal shifts as you grow. If I could really write out on this page a complete description of who I am, it wouldn't be worth reading.</p>
-                <p className='mb-0'>{`Instead, I'll just tell you where I've been, what I've done, and about the matters that make me move.`}</p>
+                <p className='mb-0'>{`Instead, I'll just tell you where I've been, what I've done, and what I'd like to do.`}</p>
               </div> 
             </Col>
           </Row>
