@@ -42,13 +42,13 @@ export default function About() {
                 <p className='text-secondary mt-0 text-center'>aka <em>The Big Picture</em></p>
                 <p>I'm currently employed as a Software Developer. I work for a really big church as their only developer.</p>
                 <p>
-                  I enjoy working on a disparate set of things. I really like to learn and to be thrown at problems. I'm pretty good at that. 
+                  I enjoy working on a disparate set of things. I really like to learn and to be thrown at new problems.
                 </p>
                 <p>
-                  I created <a className='link-dark-accent' href="https://stemmastudy.com/" target="_blank" rel="noreferrer">StemmaStudy.com</a> to help us learn better. It definitely doesn't make learning easy, but it does make our time more effective.
+                  I created <a className='link-dark-accent' href="https://stemmastudy.com/" target="_blank" rel="noreferrer">StemmaStudy.com</a> to help us learn better. It definitely doesn't make learning easy, but it does make our time more effective. I learned a lot making it.
                 </p>
                 <p>
-                  I love the science of learning. I've taken recent interests in philosophy &ndash; especially epistemology, the nature of logic, and rational bases for believing in the existence of God. I play drums.
+                  I love the science of learning. I've taken recent interests in philosophy &ndash; especially epistemology, the nature of logic, and reasons for belief in God. I play drums.
                 </p>
                 <p>
                   Conscious learning makes us human. I want to make us more human.
