@@ -40,7 +40,7 @@ export default function About() {
               <div className=' bg-dark shadow-lg border-1 border-secondary border p-3 p-sm-5 rounded-4'>
                 <h2 className='mb-0 text-center'>TL;DR</h2>
                 <p className='text-secondary mt-0 text-center'>aka <em>The Big Picture</em></p>
-                <p>I'm currently employed as a Software Developer. I work for a really big church as their only developer.</p>
+                <p>I'm currently employed as a Software Developer for a big church.</p>
                 <p>
                   I enjoy working on a disparate set of things. I really like to learn and to be thrown at new problems.
                 </p>
@@ -79,7 +79,7 @@ export default function About() {
                     <h4 className='text-center'>College</h4>
                     <Row>
                         <Col xs={12} lg={{span: 8, offset: 2}}>
-                          <p>My High School experience gave me a really good foundation going into Clemson's Computer Science program. It was basically a breeze! I graduated early having more credits than needed and the new knowledge that I wanted nothing to do with accounting (I almost did a finance minor).</p>
+                          <p>My High School experience gave me a really good foundation going into Clemson's Computer Science program. I graduated early having more credits than needed and the new knowledge that I wanted nothing to do with accounting (I almost did a finance minor).</p>
                           <p>It definitely helped to have a group of incredibly smart friends who were also interested in doing well.</p>
                           <p>CS is a really broad field, and I don't think I ever really selected a specific niche while in College (or even since!). All of the problems CS tries to solve are interesting and similar in fundamental ways.</p>
                           <p>Also, Clemson starting destroying college football during my time there. I think I might be a good luck charm. You're welcome. Go Tigers.</p>
