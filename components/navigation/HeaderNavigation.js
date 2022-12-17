@@ -15,7 +15,7 @@ import Link from 'next/link'
 
 export default function HeaderNavigation() {
     return (
-        <Navbar collapseOnSelect={true} expand='lg' className="fixed-top shadow text-dark bg-light">
+        <Navbar collapseOnSelect={true} expand='lg' className="fixed-top shadow text-dark" style={{'backdropFilter': 'blur(10px)'}}>
             <Container>
                     <Navbar.Brand className="navbar-brand d-flex align-items-center">
                         <Link href="/" passHref>
@@ -37,6 +37,9 @@ export default function HeaderNavigation() {
                     </Nav>
                 </Navbar.Collapse>
             </Container>
+            <div className={style.whitener}>
+
+            </div>
         </Navbar>
     );
   }

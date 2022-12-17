@@ -3,3 +3,11 @@
     border-radius: 50%;
 }
 
+.whitener {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: white;
+    opacity: 0.85;
+    z-index: -1;
+}
