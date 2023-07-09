@@ -56,6 +56,7 @@ export default function Home() {
 
             </Col>
           </Row>
+          {/* 
           <Row>
             <Col xs={12} lg={{span: 5, offset:1}} className='mt-5'>
               <div className="rounded-4 overflow-hidden bg-transparent text-dark text-center shadow-lg h-100 d-flex flex-column">
@@ -96,6 +97,7 @@ export default function Home() {
               </div>
             </Col>
           </Row>
+          */}
         </Container>
       </div>
   )
