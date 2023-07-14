@@ -203,7 +203,7 @@ export default function About() {
 
                       <h4>Technologically Empowered Education</h4>
                       <p>The modern idealization of education conceives of it in various linearities: attend an hour lecture, followed by the next lecture, and the next. Listen for large stretches of time as someone unfolds a stream of information and students try to jot down every word.</p>
-                      <p>There's a myriad of issues this paradigm is subject to, one of which is the false homogeneity it assumes: every student is treated the same. The lost get more so, and the superstars get bored.</p>
+                      <p>There are a myriad of issues this paradigm is subject to, one of which is the false homogeneity it assumes: every student is treated the same. The lost get more so, and the superstars get bored.</p>
                       <p>I believe it would be better if technology handled the distribution of informative material and the review of it. Then, we could stop treating the information as if it needed to unfold in the same order for everyone. In the real world, there are many paths to come to know the same information. We should let technology systematically find the best pathways for each student. This means we must also delinearize our curricula and make it, like the real world, more interconnected.</p>
                       
                       <h4>Superset Software</h4>
@@ -213,7 +213,7 @@ export default function About() {
 
                       <h4>The Foundations of Thought</h4>
                       <p>What is truth? What can we know? What is knowing? What is a thought? Can a thought be fully described in terms of physical brain states? What is evidence? What is logic and how does it relate to language? Must we really trust "logical" conclusions? Are there limits to the conclusions it can reach? Should we, or even can we, doubt <em>everything</em>?</p>
-                      <p>It should humble any person that there is so much controversy surrounding these most basic questions. I'm inspired by the incredibly genius attempts of the past centuries seeking to get at the heart of these questions. In fact, I am almost horrified by the fact that these questions get so little attention in schools and churches.</p>
+                      <p>It should humble any person that there is so much controversy surrounding these most basic questions. I'm inspired by the incredibly genius attempts by philosophers in the past centuries seeking to get at the heart of these questions. In fact, I am almost horrified by the fact that these questions get so little attention in schools and churches, today.</p>
                       <p>Having adequate answers to these questions lays the groundwork for establishing ideas in the minds of others as respectable, believable, and, potentially, undeniable.</p>
                       <p>There's a lot of confusion and clash around these questions. I'd like to pursue more formal education on these questions (in the form of a Master's in Christian Philosophy) to help people make sense of the world along with their place and purpose in it.</p>
                     </Col>
