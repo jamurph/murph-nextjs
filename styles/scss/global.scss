@@ -12,8 +12,10 @@
 }
 
 
-html, body {
+html,
+body {
   font-size: 18px;
+  line-height: 1.7;
 }
 
 .bg-dark-accent {
@@ -21,3 +23,51 @@ html, body {
 }
 
 
+
+
+.article {
+
+
+
+  img {
+    margin: 20px 0px;
+    max-width: 100%;
+  }
+
+  h1,
+  h2 {
+    margin-top: 50px;
+  }
+
+  h3,
+  h4 {
+    margin-top: 25px;
+  }
+
+  h5,
+  h6 {
+    margin-top: 20px;
+  }
+
+  pre {
+    background: #212121;
+    line-height: 1.5rem;
+    color: var(--bs-code-color);
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  blockquote {
+    margin-top: 15px;
+    border-left: 4px solid var(--bs-secondary);
+    padding-left: 15px;
+
+    p {
+      margin: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+  }
+
+}

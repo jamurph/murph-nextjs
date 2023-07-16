@@ -1,7 +1,7 @@
 import style from '../../styles/scss/components/navigation/HeaderNavigation.module.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBrain } from '@fortawesome/free-solid-svg-icons/faBrain'
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons/faLightbulb'
 
 import Image from 'next/image'
 
@@ -32,7 +32,7 @@ export default function HeaderNavigation() {
                 <Navbar.Collapse id="navbarText">
                     <Nav className="mb-2 mb-lg-0 fs-5 w-100 justify-content-evenly">
                         <Link href='/about' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faCircleInfo} /> About Me</Nav.Link></Link>
-                        {/*<Link href='/thoughts' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faBrain} /> Thoughts</Nav.Link></Link>*/}
+                        {<Link href='/ethos' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faLightbulb} /> My Ethos</Nav.Link></Link>}
                         {/*<Link href='/experiments' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faFlask} /> Web Experiments</Nav.Link></Link>*/}
                     </Nav>
                 </Navbar.Collapse>
