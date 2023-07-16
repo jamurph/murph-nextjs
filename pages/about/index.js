@@ -78,7 +78,7 @@ export default function About() {
                           <p>My High School experience gave me a really good foundation going into Clemson's Computer Science program. I graduated early having more credits than needed and the new knowledge that Balance Sheets and methods of depreciation are not particularly interesting (I almost did a Finance minor).</p>
                           <p>It definitely helped to have a group of incredibly smart friends who were also interested in doing well.</p>
                           <p>CS is a really broad field, and I don't think I ever really selected a specific niche while in College (or even since!). All of the problems CS tries to solve are interesting and similar in fundamental ways. So, I definitely enjoy working with a wide variety of technologies and, perhaps counterintuitively, I think jumping around and seeing how different paradigms approach the same problems is one of the best ways to learn (and to learn, especially, that the grass is not always greener on the other tech stack).</p>
-                          <p>Also, Clemson starting destroying college football during my time there. I think I might be a good luck charm. You're welcome. Go Tigers.</p>
+                          <p>Also, Clemson started destroying college football during my time there. I think I might be the good luck charm. You're welcome. Go Tigers.</p>
                           
                             <div className="w-50 m-auto">
                               <Image src={paw} layout='responsive' placeholder='blur' alt=""/>
