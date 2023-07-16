@@ -21,8 +21,8 @@ export default function Home() {
           <HomeHeader />
           <Row className="justify-content-md-center">
           <Col xs={12} lg={{span:8}} xl={{span: 7}}>
-              <div className={`${style.portraitBubble} bg-secondary mt-5 border border-3 border-secondary overflow-hidden`}>
-                <Image src={self} layout='responsive' placeholder='blur' alt=""/>
+              <div style={{zIndex: 1}} className={`${style.portraitBubble} bg-secondary mt-5 border border-3 border-secondary overflow-hidden`}>
+                <Image style={{zIndex: 0}} src={self} layout='responsive' placeholder='blur' alt=""/>
               </div>
               <p className='text-center text-secondary mt-3 mb-5 fs-4'>{`I'm Jacob Murphy.`}</p>
               <div className="rounded-4 overflow-hidden bg-light text-dark text-start p-4 shadow-lg mt-5">
