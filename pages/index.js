@@ -33,11 +33,7 @@ export default function Home() {
                     I work for `}<a target="_blank" href="https://www.brookwoodchurch.org/" rel="noreferrer">Brookwood Church</a>. {` 
                     As the sole developer for a large church, I am responsible for everything from database administration, SQL reporting, and workflow automation to website development, copywriting, and the occasional custom project.
                     `}</p>
-                  <p>
-                    {`In addition to my work at Brookwood, I've started `}<a target="_blank" href="https://stemmastudy.com" rel="noreferrer">StemmaStudy</a>{` as a hobby.
-                    StemmaStudy lets you make what I've designated "Connected Flashcards" online. It's a method of studying that integrates many different `}<a target="_blank" href="https://stemmastudy.com/learn" rel="noreferrer">human learning principles</a>{` in a cohesive way.
-                    Long story short: it's a better way to learn things.`}
-                  </p>
+                  
                   <p>
                     {`I like to solve daunting problems and try new, daring things. 
                     I would rather effortfully engage in risky, rational leaps than take comfortable, unquestionable steps. The preferred object of my work is a hypothesis, not an axiom.

@@ -44,9 +44,6 @@ export default function About() {
                   I enjoy working on a disparate set of things. I really like to learn and to be thrown at new problems.
                 </p>
                 <p>
-                  I created <a className='link-dark-accent' href="https://stemmastudy.com/" target="_blank" rel="noreferrer">StemmaStudy.com</a> to help us learn better. It definitely doesn't make learning easy, but it does make our time more effective. I learned a lot making it.
-                </p>
-                <p>
                   I love the science of learning. I play drums. I've taken a deep interest in philosophy &ndash; especially epistemology, the nature of logic, and objective reasons for belief in God.
                 </p>
               </div>
@@ -104,16 +101,16 @@ export default function About() {
                       <h4 className='text-center'>Work</h4>
                       <Row>
                         <Col xs={12} lg={{span: 8, offset: 2}}>
-                          <p>I've been working for Brookwood Church for the last 4 years, and I can tell that it has grown me quite a bit.</p>
+                          <p>I've been working for Brookwood Church for the last 5 years, and I can tell that it has grown me quite a bit.</p>
                           <p>One of the great benefits, a result of being the only developer, is that I've had to interface more with users than I think most developers get the chance to. It is one thing to develop a feature to a user story you read on a screen and present it to an internal stakeholder, it is another thing entirely to know your user by name, meet with them about what they need, and then share their coffee machine.</p>
                           <p>I am grateful that I get to have my hands in almost every aspect: administrative processes, marketing, database administration, website development, reporting, and the list just goes on and on. I like being an information broker and helping people understand and use the tools available to them.</p>
                         </Col>
                       </Row>
                   </TimelineItem>
-                  <TimelineItem>
+                  { /*<TimelineItem>
                       <h4 className='text-center'>Memory: <em>Rethinking it</em></h4>
                       <Col xs={12} lg={{span: 8, offset: 2}}>
-                        <p>Combine an ounce of curiosity, a pinch of motivation, and a global pandemic shutting down my other distractions, and I get <a href="https://stemmastudy.com/">StemmaStudy.com</a>.</p>
+                        <p>Combine an ounce of curiosity, a pinch of motivation, and a global pandemic shutting down my other distractions, and I get StemmaStudy - a platform for creating "Connected Flashcards".</p>
                         <p>You've heard the proverb "Give a man a fish and he will eat for a day, teach a man to fish and he will eat for a lifetime...". Well, let me tell you: if you teach a <em>forgetful</em> man to fish, he will <em>still</em> only eat for a day.</p>
                         <p>I bet if you try to mentally walk through just the structure and main ideas of your most recently read books and audiobooks, you would struggle to go on for more than a minute with each one. Yet, those books probably took you, on average, 10 hours to consume.</p>
                         <p>We often approach learning the wrong ways. We humans don't learn well through simple streams of information. Yet, it seems that's how most people structure their education or instruction.</p>
@@ -121,7 +118,7 @@ export default function About() {
                         <p>I have a lot of ideas I've yet to implement and I've implemented others in ways I'd like to redo! To research and create something like this from scratch has been one of the greatest learning experiences of my life. Even still, I have barely scratched the surface of some of my main ideas for it.</p>
                         <p>So, I am excited to continue exploring this area of personal R&amp;D in my free time.</p>
                       </Col>
-                  </TimelineItem>
+  </TimelineItem> */ }
                 </Timeline>
               </div>
             </Col>
@@ -135,7 +132,7 @@ export default function About() {
                 <p className='text-center mt-4 mb-5'>Here's a snapshot of some of the stuff I've worked with.</p>
                 <Container fluid>
                   <Row className="text-center">
-                    <Col xs={12} lg={4}>
+                    <Col xs={12} lg={6}>
                       <div className='border border-1 border-secondary rounded-2 py-3 p-2 my-2'>
                         <h6>mxm.dev</h6>
                         <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
@@ -143,17 +140,19 @@ export default function About() {
                           { "NextJS,HTML,CSS,JSX,React,React Bootstrap,CSS Modules,Javascript,Strapi CMS,Sass,Hosting with Render and Vercel".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>) }
                         </div>
                       </div>
-                    </Col>
+                    </Col> 
+  {/*
                     <Col xs={12} lg={4}>
                     <div className='border border-1 border-secondary rounded-2 py-3 p-2 my-2'>
-                        <h6>StemmaStudy.com</h6>
+                        <h6>StemmaStudy</h6>
                         <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
                         <div className="mb-3">
                           { "Laravel Framework,PHP,MySQL,HTML,CSS,Bootstrap,Javascript,Cytoscape,Blade,Trix Editor,Stripe,Mailgun,Laravel Vapor + AWS".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>) }
                         </div>
                       </div>
                     </Col>
-                    <Col xs={12} lg={4}>
+*/ }
+                    <Col xs={12} lg={6}>
                     <div className='border border-1 border-secondary rounded-2 py-3 p-2 my-2'>
                         <h6>brookwoodchurch.org</h6>
                         <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
