@@ -6,8 +6,9 @@
     height: 300px;
     width: 300px;
     margin: auto;
-    box-shadow: 0px 0px 70px 0px #eedaaf33 !important
+    /*box-shadow: 0px 0px 70px 0px #eedaaf33 !important*/
 }
+
 
 .cardImg {
     border-top-left-radius: 20px;
@@ -25,7 +26,7 @@
 
 .mxm {
     background: #212121;
-    border: 1px solid ;
+    border: 1px solid;
     padding: 15px 20px;
     width: 75%;
     max-width: 290px;
@@ -33,7 +34,7 @@
     text-decoration: none !important;
     color: $secondary;
     border-radius: 5px;
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     transition: all .2s linear;
 }
 
