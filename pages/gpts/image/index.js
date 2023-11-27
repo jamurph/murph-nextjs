@@ -44,7 +44,7 @@ export default function ImageGPTs() {
 
 ImageGPTs.getLayout = function getLayout(page) {
     return (
-        <GlobalLayout title={'GPTs by Murph'} description={'Browse GPTs built by me.'}>
+        <GlobalLayout title={'Image GPTs by Murph'} description={'Browse Image GPTs built by me.'}>
             {page}
         </GlobalLayout>
     )

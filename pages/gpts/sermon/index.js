@@ -131,7 +131,7 @@ export default function FunGPTS() {
 
 FunGPTS.getLayout = function getLayout(page) {
     return (
-        <GlobalLayout title={'GPTs by Murph'} description={'Browse GPTs built by me.'}>
+        <GlobalLayout title={'Sermon GPTs by Murph'} description={'Browse Christian Sermon Helper GPTs built by me.'}>
             {page}
         </GlobalLayout>
     )

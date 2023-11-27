@@ -55,7 +55,7 @@ export default function GeneralGPTS() {
 
 GeneralGPTS.getLayout = function getLayout(page) {
     return (
-        <GlobalLayout title={'GPTs by Murph'} description={'Browse GPTs built by me.'}>
+        <GlobalLayout title={'General GPTs by Murph'} description={'Browse GPTs in the General Category built by me.'}>
             {page}
         </GlobalLayout>
     )
