@@ -9,7 +9,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 
 import logo from '../../public/images/logo-circle2.png'
 
-import { faCircleInfo, faFlask } from '@fortawesome/free-solid-svg-icons'
+import { faCircleInfo, faFlask, faRobot } from '@fortawesome/free-solid-svg-icons'
 
 import Link from 'next/link'
 
@@ -31,7 +31,7 @@ export default function HeaderNavigation() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="navbarText">
                     <Nav className="mb-2 mb-lg-0 fs-5 w-100 justify-content-evenly">
-                        {<Link href='/gpts' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faCircleInfo} /> Browse AI Assistants</Nav.Link></Link>}
+                        {<Link href='/gpts' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faRobot} /> Browse AI Assistants</Nav.Link></Link>}
                         {/*<Link href='/about' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faCircleInfo} /> About Me</Nav.Link></Link>*/}
                         {/*<Link href='/ethos' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faLightbulb} /> My Ethos</Nav.Link></Link>*/}
                         {/*<Link href='/experiments' passHref><Nav.Link className='text-center'><FontAwesomeIcon className='text-secondary' icon={faFlask} /> Web Experiments</Nav.Link></Link>*/}

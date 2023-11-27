@@ -29,8 +29,8 @@ export default function Home() {
               <h1><b>MAKE BOLD LEAPS</b></h1>
               <div className='border border-1 border-secondary m-auto' style={{ width: '300px', height: '1px' }}></div>
               <h4 className='mt-5'>Innovation Empowers the Audacious</h4>
-              <p className='mt-4'>{"Tools to champion the curious. Embrace the thrill of bold, calculated risks over the safety of the known. Explore new dimensions of innovation. Empower your vision with AI that's as adventurous and analytical as you are, unlocking a future shaped by your imagination."}</p>
-              <Link href="/about" passhref>
+              <p className='mt-4'>{"Tools to champion the curious. Embrace the thrill of bold, calculated risks over the safety of the known. Explore new dimensions of innovation and empower your vision with AI that's as adventurous and analytical as you are, unlocking a future shaped by your imagination."}</p>
+              <Link href="/gpts" passhref>
                 <Button className='lightLink'>View GPTs</Button>
               </Link>
             </div>
