@@ -6,12 +6,7 @@ import GPTCard from '../../../components/gpts/GPTCard.js'
 export default function GeneralGPTS() {
 
     var featured = [
-        {
-            title: 'Word Wizardry: The Copywriting Alchemist',
-            description: 'Crafting your message, perfectly, where each word is meticulously chosen for impact.',
-            image_url: '/images/gpt_images/word_wizardry.png',
-            link: 'https://chat.openai.com/g/g-B1lu8Jt74-word-wizardry-the-copywriting-alchemist',
-        },
+
         {
             title: 'Insight Architect',
             description: 'I provide deep, philosophical analysis of ideas and questions.',
@@ -19,10 +14,22 @@ export default function GeneralGPTS() {
             link: 'https://chat.openai.com/g/g-DpE4TBCdo-insight-architect',
         },
         {
+            title: 'Product Prodigy: Startup Guide and Web Mentor',
+            description: 'Gain expert insights in web development, innovative product strategies, and startup growth.',
+            image_url: '/images/gpt_images/product_prodigy.png',
+            link: 'https://chat.openai.com/g/g-ctjyiuwwB-product-prodigy-startup-guide-and-web-mentor',
+        },
+        {
             title: 'Wise Wellness Coach',
             description: 'Harness the Power of Counseling, Psychology, and Targeted Self-Improvement for Personal Development and Transform Your Life.',
             image_url: '/images/gpt_images/wise_wellness_coach.png',
             link: 'https://chat.openai.com/g/g-1bTcAGIcw-wise-wellness-coach',
+        },
+        {
+            title: 'Word Wizardry: The Copywriting Alchemist',
+            description: 'Crafting your message, perfectly, where each word is meticulously chosen for impact.',
+            image_url: '/images/gpt_images/word_wizardry.png',
+            link: 'https://chat.openai.com/g/g-B1lu8Jt74-word-wizardry-the-copywriting-alchemist',
         },
     ]
 

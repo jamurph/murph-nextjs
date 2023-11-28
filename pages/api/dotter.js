@@ -27,13 +27,12 @@ export default async function handler(req, res) {
         // Get the initialized graphviz instance
         const gv = await getGraphviz();
 
-        // Use the layout method to generate the graph image
+
         const svg = await gv.dot(decodedDot);
 
-        // Set the Content-Type header to image/svg+xml
-        res.setHeader('Content-Type', 'image/svg+xml');
-
         // Send the SVG image as the response
+        res.setHeader('Content-Type', 'image/svg+xml');
+        res.setHeader('Content-Disposition', 'inline; filename="DiagramDesignerGPT_Download.svg"');
         res.send(svg);
     } catch (error) {
         // Handle any errors that occur during the process

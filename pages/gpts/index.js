@@ -7,6 +7,13 @@ export default function GPTS() {
 
     var featured = [
         {
+            title: 'AI Diagram Designer: Smart Mind Map & Chart Maker',
+            description: 'Craft detailed flowcharts, concept maps, and process diagrams that transform raw data into clear, impactful graphs and presentations or streamline workflow and planning.',
+            image_url: '/images/gpt_images/diagram_designer.png',
+            link: 'https://chat.openai.com/g/g-rCajQrvhP-ai-diagram-designer-smart-mind-map-chart-maker',
+            badge: 'Image'
+        },
+        {
             title: 'Blurg the Caveman',
             description: 'Small word, big meaning. Talk quick, make sense. Like old days. You like, you try.',
             image_url: '/images/gpt_images/blurg.png',

@@ -12,6 +12,12 @@ export default function ImageGPTs() {
             description: 'Discover wildlife through your photos! Experience detailed botanical/zoological image analysis for precise species recognition.',
             image_url: '/images/gpt_images/flora_fauna.png',
             link: 'https://chat.openai.com/g/g-awKSahOqY-flora-fauna-finder-animal-plant-identification',
+        },
+        {
+            title: 'AI Diagram Designer: Smart Mind Map & Chart Maker',
+            description: 'Craft detailed flowcharts, concept maps, and process diagrams that transform raw data into clear, impactful graphs and presentations or streamline workflow and planning.',
+            image_url: '/images/gpt_images/diagram_designer.png',
+            link: 'https://chat.openai.com/g/g-rCajQrvhP-ai-diagram-designer-smart-mind-map-chart-maker',
         }
     ]
 
