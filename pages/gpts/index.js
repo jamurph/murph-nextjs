@@ -99,7 +99,7 @@ export default function GPTS() {
 
 GPTS.getLayout = function getLayout(page) {
     return (
-        <GlobalLayout title={'GPTs by Murph'} description={'Blurg the Caveman, AI Diagram Designer, Sermon Supervisor, and more!'}>
+        <GlobalLayout title={'Browse All GPTs | MXM'} description={'Enhancing life and work with custom-tailored intelligence. Meet Blurg the Caveman, an AI Diagram Designer, Sermon Supervisor, and more!'}>
             {page}
         </GlobalLayout>
     )
