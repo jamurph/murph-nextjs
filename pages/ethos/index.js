@@ -9,21 +9,21 @@ import { ReactMarkdown } from 'react-markdown/lib/react-markdown.js'
 
 export default function About() {
   return (
-      <div>
-        
+    <div>
 
-        <Container className="my-5">
-            <Row>
-                <Col xs={12} lg={{span: 10, offset: 1}}>
-                    <div className={`article bg-light text-dark p-3 p-sm-5 rounded-4 shadow-lg`}>
-                        <h2 className="text-center">My Ethos: MXM</h2>
-                        <p className="text-center text-muted">Embark. Explore. Empower.</p>
-                        <div className="w-25 border-top border-3 mx-auto mb-5 border-secondary rounded-1"></div>
-                        <div className="shadow-lg mb-5 rounded-3 overflow-hidden">
-                            <Image className='rounded-3' src={ship} layout="responsive" width={1920} height={1080} alt="" />
-                        </div>
-                        <ReactMarkdown>
-                            {`
+
+      <Container className="my-5">
+        <Row>
+          <Col xs={12} lg={{ span: 10, offset: 1 }}>
+            <div className={`article bg-light text-dark p-3 p-sm-5 rounded-4 shadow-lg`}>
+              <h2 className="text-center">My Ethos: MXM</h2>
+              <p className="text-center text-muted">Embark. Explore. Empower.</p>
+              <div className="w-25 border-top border-3 mx-auto mb-5 border-secondary rounded-1"></div>
+              <div className="shadow-lg mb-5 rounded-3 overflow-hidden">
+                <Image className='rounded-3' src={ship} layout="responsive" width={1920} height={1080} alt="" />
+              </div>
+              <ReactMarkdown>
+                {`
 What guiding principles, or ethos, do you want to live by?
 
 This is a daunting question, and it is not a question that anyone can truly ignore: try it, and you will find yourself living by an ethos of apathy.
@@ -86,18 +86,18 @@ The MXM ethos is meant to inspire more arduous action without the anxiety.
 
 It calls us to move in uncertainty, to tolerate and accept error, and to seek new and energizing endeavors.
                             `}
-                        </ReactMarkdown>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-      </div>
+              </ReactMarkdown>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   )
 }
 
 About.getLayout = function getLayout(page) {
   return (
-    <GlobalLayout title={'About | Murph'} description={'I am a Software Developer.'}>
+    <GlobalLayout title={'The MXM Ethos'} description={'Embark. Explore. Empower. Inspire more arduous action without anxiety.'}>
       {page}
     </GlobalLayout>
   )

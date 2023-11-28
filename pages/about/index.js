@@ -231,7 +231,7 @@ export default function About() {
 
 About.getLayout = function getLayout(page) {
   return (
-    <GlobalLayout title={'About | Murph'} description={'I am a Software Developer.'}>
+    <GlobalLayout title={'About | Murph'} description={'I am a Software Developer. I make things.'}>
       {page}
     </GlobalLayout>
   )

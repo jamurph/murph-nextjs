@@ -131,7 +131,7 @@ export default function Home() {
 
 Home.getLayout = function getLayout(page) {
   return (
-    <GlobalLayout title={'Homepage | Murph'} description={'Jacob Murphy: Software Developer and Idea Lover.'}>
+    <GlobalLayout title={'Homepage | MXM | Innovation Empowers the Audacious'} description={'Tools to champion the curious. Empower your vision with AI that\'s as adventurous and analytical as you are.'}>
       {page}
     </GlobalLayout>
   )
