@@ -6,7 +6,12 @@ import GPTCard from '../../../components/gpts/GPTCard.js'
 export default function GeneralGPTS() {
 
     var featured = [
-
+        {
+            title: 'Expert Job Title Creator: Tailored Titling Pro',
+            description: 'Crafts clear, concise job titles that accurately represent the role\'s core functions and level of expertise. In-depth analysis of job descriptions ensures alignment with industry standards and organizational needs.',
+            image_url: '/images/gpt_images/job_titles.png',
+            link: 'https://chat.openai.com/g/g-DpE4TBCdo-insight-architect',
+        },
         {
             title: 'Insight Architect',
             description: 'I provide deep, philosophical analysis of ideas and questions.',

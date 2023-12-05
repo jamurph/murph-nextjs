@@ -51,7 +51,7 @@ export default function GPTS() {
     ]
     var categories = [
         { title: 'For Fun!', description: 'Who said AI can\'t be fun? Dive into a world where artificial intelligence isn\'t just smart—it\'s humorous, quirky, and always entertaining. From witty banter to unexpected jokes, experience the lighter side of AI. It\'s not just about algorithms and data; it\'s about accessing the best and most interesting aspects of humanity on demand!', link: '/gpts/fun' },
-        { title: 'General', description: 'AI to enhance the everyday. Whether helping you think by analyzing options, helping you learn, helping you word something, or even helping you diagram something.', link: '/gpts/general' },
+        { title: 'General', description: 'AI to enhance the everyday. Whether helping you think by analyzing options, helping you learn, or helping you word something.', link: '/gpts/general' },
         { title: 'Images', description: 'AI and imagery is love at first sight! It\'s fusion that unlocks possibilities and redefines the boundaries of creativity in technology.', link: '/gpts/image' },
         { title: 'Sermon Preparation', description: 'Elevate Every Sermon to a Masterpiece: With these assistants focusing on clarity, emotional resonance, historical context, and scriptural foundations, your sermons will captivate and inspire. Imagine delivering messages that not only convey wisdom but also engage every listener, creating a lasting impact.', link: '/gpts/sermon' },
     ]

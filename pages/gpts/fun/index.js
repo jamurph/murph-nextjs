@@ -7,6 +7,12 @@ export default function FunGPTS() {
 
     var featured = [
         {
+            title: 'Architect of Hyperbolized Occupational Epithets',
+            description: 'Crafts creatively exaggerated job titles, merging witty satire with complex corporate jargon.',
+            image_url: '/images/gpt_images/title_satire.png',
+            link: 'https://chat.openai.com/g/g-xuawu5W7b-architect-of-hyperbolized-occupational-epithets',
+        },
+        {
             title: 'Bart the Bard',
             description: 'Merry minstrel of Shakespearean verse and wit.',
             image_url: '/images/gpt_images/bart.png',
