@@ -1,6 +1,3 @@
+## Welcome to the MXM.dev repo.
 
-
-Notes: Strapi running on Render with Postgres db on bit.io
-
-
-
+This repository hosts the code for my personal website, MXM.dev, developed using Next.js.
