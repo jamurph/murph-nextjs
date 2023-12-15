@@ -1,6 +1,9 @@
 import summarize from 'text-summarization'
 
 export default async function handler(req, res) {
+  //return not implemented. Nobody cares about TextRank nowadays!
+  res.status(501).json({ result: "Not Implemented." })
+  /*
   if(req.method === 'POST'){
     const {inputText, numExtract} = req.body
     if(typeof inputText == 'string' && inputText.length > 1){
@@ -18,4 +21,5 @@ export default async function handler(req, res) {
   }else {
     res.status(405)
   }
+  */
 }
