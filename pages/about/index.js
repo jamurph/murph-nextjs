@@ -132,7 +132,7 @@ export default function About() {
               <p className='text-center mt-4 mb-5'>Here's a snapshot of some of the stuff I've worked with.</p>
               <Container fluid>
                 <Row className="text-center">
-                  <Col xs={12} lg={6}>
+                  <Col xs={12} lg={4}>
                     <div className='border border-1 border-secondary rounded-2 py-3 p-2 my-2'>
                       <h6>mxm.dev</h6>
                       <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
@@ -141,18 +141,17 @@ export default function About() {
                       </div>
                     </div>
                   </Col>
-                  {/*
-                    <Col xs={12} lg={4}>
+                  <Col xs={12} lg={4}>
                     <div className='border border-1 border-secondary rounded-2 py-3 p-2 my-2'>
-                        <h6>StemmaStudy</h6>
-                        <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
-                        <div className="mb-3">
-                          { "Laravel Framework,PHP,MySQL,HTML,CSS,Bootstrap,Javascript,Cytoscape,Blade,Trix Editor,Stripe,Mailgun,Laravel Vapor + AWS".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>) }
-                        </div>
+                      <h6>StemmaStudy</h6>
+                      <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
+                      <div className="mb-3">
+                        {"Laravel Framework,PHP,MySQL,HTML,CSS,Bootstrap,Javascript,Cytoscape,Blade,Trix Editor,Stripe,Mailgun,Laravel Vapor + AWS".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>)}
                       </div>
-                    </Col>
-*/ }
-                  <Col xs={12} lg={6}>
+                    </div>
+                  </Col>
+
+                  <Col xs={12} lg={4}>
                     <div className='border border-1 border-secondary rounded-2 py-3 p-2 my-2'>
                       <h6>brookwoodchurch.org</h6>
                       <div className="w-25 border-top border-3 mx-auto mb-3 border-secondary rounded-1"></div>
@@ -166,18 +165,19 @@ export default function About() {
                   <Col xs={12} lg={{ span: 8, offset: 2 }}>
                     <p className="text-start">Here's an eclectic mess of skills and technologies I've used in some fashion in the past &ndash; in projects of sufficient complexity &ndash; that I think warrants inclusion. I'm definitely rusty on some of these.
                       But, relearning is <em>much</em> faster than initial learning, so it's worth mentioning them!</p>
-                    {"Java,JSON,Python 3,Search Engine Optimization,SourceTree,APIs,Data Structures and Algorithms,Word Vectorization,Web Scraper,VR in Unity,Graph Search Techniques,Introductory Machine Learning,Copywriting,Some Psychology and Cognitive Science,Drums,C++,CLI's,Google Analytics,Neo4j,iReport (with loathing),NuxtJS,Vue,TailwindCSS,GPT4 API and Some Prompt Engineering,Supabase".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>)}
+                    {"Java,JSON,Python 3,Search Engine Optimization,SourceTree,APIs,Data Structures and Algorithms,Word Vectorization,Web Scraper,VR in Unity,Graph Search Techniques,Introductory Machine Learning,Copywriting,Some Psychology and Cognitive Science,Drums,C++,CLI's,Google Analytics,Neo4j,iReport (with loathing),NuxtJS,Vue,TailwindCSS,OpenAI API,Prompt Engineering,Supabase".split(",").map((skill) => <span key={skill} className='badge bg-opacity-10 bg-white m-1'>{skill}</span>)}
                   </Col>
                 </Row>
                 <Row className='mt-4'>
                   <Col xs={12} lg={{ span: 8, offset: 2 }}>
                     <p>I'm sure I've forgotten to include some other weird things. But, the above's the bulk of it.</p>
-                    <p>Besides, if we're being completely honest, there are really only three fundamental skills that all of the above boil down to:</p>
-                    <ol>
-                      <li>The ability to comprehend documentation.</li>
-                      <li>The ability to discern when documentation needs to be read.</li>
-                      <li>The ability to endure the painful, writhing, existential agony of actually reading the documentation.</li>
+                    <p>Besides, if we're being completely honest, there are really only three golden, fundamental skills that all of the above boil down to:</p>
+                    <ol className="text-secondary" style={{ textShadow: '0px 0px 10px rgba(255,255,255,0.3)' }}>
+                      <li><b>The ability to comprehend documentation.</b></li>
+                      <li><b>The ability to discern when documentation needs to be read.</b></li>
+                      <li><b>The ability to endure the painful, writhing, existential agony of actually reading the documentation.</b></li>
                     </ol>
+                    <p>Fostering a hopeful curiosity helps hone all three of these skills.</p>
                   </Col>
                 </Row>
 
