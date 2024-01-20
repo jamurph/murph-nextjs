@@ -1,12 +1,12 @@
 import { getDocuments } from 'outstatic/server'
 
-export default function Index({ posts }) {
+export default async function Index() {
+    const posts = await getData()
     return posts.map((post) => <h1 key={post.slug}>{post.title}</h1>)
 }
 
-export const getStaticProps = async () => {
+async function getData() {
     const posts = getDocuments('posts', ['title', 'slug'])
-    return {
-        props: { posts }
-    }
+
+    return posts
 }
