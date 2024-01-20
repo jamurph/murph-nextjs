@@ -19,7 +19,7 @@ export default function Blog({ posts }) {
     )
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const posts = getDocuments('Posts', ['title', 'slug', 'coverImage', 'description'])
     posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
     return {

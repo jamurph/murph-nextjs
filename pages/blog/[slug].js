@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw'
 import Image from 'next/image'
 
-import { getDocumentPaths, getDocumentBySlug } from 'outstatic/server'
+import { getDocumentBySlug } from 'outstatic/server'
 
 import styles from '../../styles/scss/pages/blog/article.module.scss'
 
@@ -19,7 +19,7 @@ export default function Article({ post }) {
                             <h2 className="text-center mb-3">{post.title}</h2>
                             <div className="w-25 border-top border-3 mx-auto mb-5 border-secondary rounded-1"></div>
                             <div className="shadow-lg mb-5 rounded-3 overflow-hidden">
-                                <Image className='rounded-3' src={post.coverImage} layout="responsive" width={1920} height={1080} alt="" />
+                                <Image className='rounded-3' src={post.coverImage} style={{ width: '100%', height: 'auto' }} width={1920} height={1080} alt="" />
                             </div>
                             <ReactMarkdown rehypePlugins={[rehypeRaw]} >{post.content}</ReactMarkdown>
                         </div>
@@ -37,21 +37,13 @@ Article.getLayout = function getLayout(page) {
     );
 }
 
-export async function getStaticPaths() {
-    return {
-        paths: getDocumentPaths('Posts'),
-        fallback: false
-    }
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
     const post = getDocumentBySlug('Posts', params.slug, [
         'title',
         'slug',
         'content',
         'coverImage'
     ])
-    console.log(post)
     return {
         props: {
             post: {
