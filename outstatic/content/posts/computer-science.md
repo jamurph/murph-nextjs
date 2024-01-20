@@ -5,7 +5,7 @@ author:
   name: 'Jacob Murphy'
   picture: ''
 slug: 'computer-science'
-description: 'Both blacksmiths and builders use hammers. "Computer Science" has never been a great designator.'
+description: 'Both blacksmiths and builders use hammers. What they do with them is sufficiently different to warrant separate schooling. Similarly, "Computer Science" is far too broad to be useful.'
 coverImage: '/images/computers-MyMT.jpg'
 publishedAt: '2024-01-14T17:38:57.000Z'
 ---
@@ -28,8 +28,7 @@ Somehow, everyone landed on Computer Scientist.
 
 Consider this reasoning:
 
-> **Wherever there are phenomena, there can be a science to describe and explain those phenomena. Thus, the simplest (and correct) answer to "What is botany?" is "Botany is the study of plants". And zoology is the study of animals, astronomy the study of stars, and so on. Phenomena breed sciences.**
-> ****There are computers. Ergo, computer science is the study of computers. The phenomena surrounding computers are varied, complex, rich. \[...\] Computer science is the study of the phenomena surrounding computers.**
+> **Wherever there are phenomena, there can be a science to describe and explain those phenomena. Thus, the simplest (and correct) answer to "What is botany?" is "Botany is the study of plants". And zoology is the study of animals, astronomy the study of stars, and so on. Phenomena breed sciences.** \*\***There are computers. Ergo, computer science is the study of computers. The phenomena surrounding computers are varied, complex, rich. \[...\] Computer science is the study of the phenomena surrounding computers.**
 >
 > – Allen Newell, Alan Perlis, and Herbert Simon from the 1967 issue of Science
 
@@ -82,5 +81,3 @@ If anything, I think this understanding of Computer Science as "Applied Epistemo
 Sources:
 
 "The Development of Computer Science" by Matti Tedre has an excellent historical overview.
-
- 
