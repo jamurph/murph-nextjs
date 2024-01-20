@@ -4,11 +4,11 @@ import Link from 'next/link'
 import Image from "next/image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import {Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
-import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-export default function MXMListItem({title, description, imageUrl, href}) {
+export default function MXMListItem({ title, description, imageUrl, href }) {
     return (
         (<Link href={href} passHref className='text-reset text-decoration-none'>
 
@@ -17,10 +17,11 @@ export default function MXMListItem({title, description, imageUrl, href}) {
                     <Col xs={12} lg={4}>
                         <div className={`${style.liImage} shadow-lg`}>
                             <Image
-                                className={` rounded-3 shadow-lg`}
+                                className={` rounded-3`}
                                 src={imageUrl}
                                 width={1920}
                                 height={1080}
+                                alt=''
                                 sizes="100vw"
                                 style={{
                                     width: "100%",
@@ -40,4 +41,4 @@ export default function MXMListItem({title, description, imageUrl, href}) {
 
         </Link>)
     );
-  }
+}
