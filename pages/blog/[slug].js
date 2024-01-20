@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw'
 import Image from 'next/image'
 
-import { getDocumentBySlug } from 'outstatic/server'
+import { getDocumentBySlug, getDocuments } from 'outstatic/server'
 
 import styles from '../../styles/scss/pages/blog/article.module.scss'
 
@@ -37,7 +37,19 @@ Article.getLayout = function getLayout(page) {
     );
 }
 
-export async function getServerSideProps({ params }) {
+export async function getStaticPaths() {
+    const posts = getDocuments('posts', ['title', 'slug', 'coverImage', 'description'])
+    posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+
+    return {
+        paths: posts.map(post => ({
+            params: { slug: post.slug }
+        })),
+        fallback: false
+    }
+}
+
+export async function getStaticProps({ params }) {
     const post = getDocumentBySlug('posts', params.slug, [
         'title',
         'slug',
