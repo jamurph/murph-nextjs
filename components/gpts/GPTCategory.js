@@ -13,13 +13,11 @@ export default function GPTCard({ title, description, href }) {
                 <h3 className="mb-4"><b>{title}</b></h3>
                 <p className="mb-4">{description}</p>
                 <div className="text-end">
-                    <Link passHref
-                        href={href}
-                    >
+                    <Link passHref href={href} legacyBehavior>
                         <Button className='lightLink'>View Category <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></Button>
                     </Link>
                 </div>
             </div>
         </div>
-    )
+    );
 }

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import GlobalLayout from '../../components/layout/GlobalLayout.js'
-import Image from 'next/image'
+import Image from "next/image"
 
 import ship from '../../public/images/articles/godspeed-ship.jpg'
 
@@ -20,7 +20,17 @@ export default function About() {
               <p className="text-center text-muted">Embark. Explore. Empower.</p>
               <div className="w-25 border-top border-3 mx-auto mb-5 border-secondary rounded-1"></div>
               <div className="shadow-lg mb-5 rounded-3 overflow-hidden">
-                <Image className='rounded-3' src={ship} layout="responsive" width={1920} height={1080} alt="" />
+                <Image
+                  className='rounded-3'
+                  src={ship}
+                  width={1920}
+                  height={1080}
+                  alt=""
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "auto"
+                  }} />
               </div>
               <ReactMarkdown>
                 {`
@@ -92,7 +102,7 @@ It calls us to move in uncertainty, to tolerate and accept error, and to seek ne
         </Row>
       </Container>
     </div>
-  )
+  );
 }
 
 About.getLayout = function getLayout(page) {

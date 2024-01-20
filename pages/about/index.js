@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import GlobalLayout from '../../components/layout/GlobalLayout.js'
-import Image from 'next/image'
+import Image from "next/image"
 
 import fam from '../../public/images/hero/fam.jpg'
 import cassidy from '../../public/images/hero/cassidy.jpg'
@@ -22,7 +22,16 @@ export default function About() {
         <Row className='my-5'>
           <Col xs={12} lg={5} className="mt-3">
             <div className='rounded-4 shadow-lg'>
-              <Image className='rounded-4' src={fam} layout='responsive' placeholder='blur' alt="" />
+              <Image
+                className='rounded-4'
+                src={fam}
+                placeholder='blur'
+                alt=""
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }} />
             </div>
           </Col>
           <Col xs={12} lg={7} className='mt-3'>
@@ -78,7 +87,15 @@ export default function About() {
                       <p>Also, Clemson started destroying college football during my time there. I think I might be the good luck charm. You're welcome. Go Tigers.</p>
 
                       <div className="w-50 m-auto">
-                        <Image src={paw} layout='responsive' placeholder='blur' alt="" />
+                        <Image
+                          src={paw}
+                          placeholder='blur'
+                          alt=""
+                          sizes="100vw"
+                          style={{
+                            width: "100%",
+                            height: "auto"
+                          }} />
                       </div>
                     </Col>
                   </Row>
@@ -92,7 +109,16 @@ export default function About() {
                       <p>She helps me grow and be better. She pushes me to keep trying or to try new things when I get stuck.</p>
                       <p>She also prevents me from buying more books to put on the bookshelf until I've read enough of the ones that we already have. Nobody's perfect, I guess.</p>
                       <div className="w-75 m-auto">
-                        <Image className='rounded-4' src={cassidy} layout='responsive' placeholder='blur' alt="" />
+                        <Image
+                          className='rounded-4'
+                          src={cassidy}
+                          placeholder='blur'
+                          alt=""
+                          sizes="100vw"
+                          style={{
+                            width: "100%",
+                            height: "auto"
+                          }} />
                       </div>
                     </Col>
                   </Row>
@@ -226,7 +252,7 @@ export default function About() {
         <h3 className='text-center text-secondary'>Uh... that's all for now.</h3>
       </Container>
     </div>
-  )
+  );
 }
 
 About.getLayout = function getLayout(page) {

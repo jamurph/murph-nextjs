@@ -1,6 +1,6 @@
 
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { Container, Row, Col, Button } from 'react-bootstrap'
@@ -21,20 +21,21 @@ export default function GPTCard({ title, description, imageUrl, href, badge }) {
                 <div className="m-auto">
                     <Image
                         src={imageUrl}
-                        width="100px"
-                        height="100px"
+                        width="100"
+                        height="100"
                         alt="Circular image"
                         className="rounded-circle"
-                    />
+                        style={{
+                            maxWidth: "100px",
+                            height: "auto"
+                        }} />
                 </div>
                 <h3 className="mb-4"><b>{title}</b></h3>
                 <p className="mb-4 flex-grow-1">{description}</p>
-                <Link passHref
-                    href={href}
-                >
+                <Link passHref href={href} legacyBehavior>
                     <Button type='primary' target='_blank'>View GPT <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></Button>
                 </Link>
             </div>
         </div>
-    )
+    );
 }

@@ -1,5 +1,5 @@
 import styles from '../../styles/scss/components/footer/MainFooter.module.scss'
-import Image from 'next/image'
+import Image from "next/image"
 
 import godspeed from '../../public/images/hero/godspeed.jpg'
 
@@ -18,7 +18,16 @@ export default function MainFooter() {
             <Container className={`${styles.footerContainer} text-light p-4 p-md-5 shadow-lg bg-dark`} style={{ minHeight: '400px' }} >
                 <Row>
                     <Col xs={12} lg={{ span: 6 }}  >
-                        <Image className='border rounded-3 border-secondary' src={godspeed} layout='responsive' placeholder='blur' alt="" />
+                        <Image
+                            className='border rounded-3 border-secondary'
+                            src={godspeed}
+                            placeholder='blur'
+                            alt=""
+                            sizes="100vw"
+                            style={{
+                                width: "100%",
+                                height: "auto"
+                            }} />
                     </Col>
                     <Col xs={12} lg={{ span: 6 }} className='text-center my-5 d-flex flex-column'>
                         <div className='flex-grow-1 d-flex flex-column justify-content-center '>
@@ -31,5 +40,5 @@ export default function MainFooter() {
             </Container>
             <p className='p-3 text-center text-dark-accent'>Copyright {new Date().getFullYear()}.</p>
         </footer>
-    )
+    );
 }
