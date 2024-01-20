@@ -38,7 +38,7 @@ Article.getLayout = function getLayout(page) {
 }
 
 export async function getServerSideProps({ params }) {
-    const post = getDocumentBySlug('Posts', params.slug, [
+    const post = getDocumentBySlug('posts', params.slug, [
         'title',
         'slug',
         'content',

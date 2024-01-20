@@ -20,7 +20,7 @@ export default function Blog({ posts }) {
 }
 
 export const getServerSideProps = async () => {
-    const posts = getDocuments('Posts', ['title', 'slug', 'coverImage', 'description'])
+    const posts = getDocuments('posts', ['title', 'slug', 'coverImage', 'description'])
     posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
     return {
         props: { posts }
