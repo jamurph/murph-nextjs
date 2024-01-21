@@ -4,13 +4,13 @@ const path = require('path');
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true, 
+  swcMinify: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles/scss')],
   },
   images: {
     loader: "default",
-    domains: ["localhost","admin.mxm.dev", "jacobmurphy.dev", "mxm.dev"],
+    domains: ["localhost", "admin.mxm.dev", "jacobmurphy.dev", "mxm.dev"],
   },
 };
 

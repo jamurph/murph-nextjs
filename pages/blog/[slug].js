@@ -3,6 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw'
 import Image from 'next/image'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { coldarkCold as codeStyle } from 'react-syntax-highlighter/dist/cjs/styles/prism/'
+
 
 import { getDocumentBySlug, getDocuments } from 'outstatic/server'
 
@@ -21,7 +24,24 @@ export default function Article({ post }) {
                             <div className="shadow-lg mb-5 rounded-3 overflow-hidden">
                                 <Image className='rounded-3' src={post.coverImage} style={{ width: '100%', height: 'auto' }} width={1920} height={1080} alt="" />
                             </div>
-                            <ReactMarkdown rehypePlugins={[rehypeRaw]} >{post.content}</ReactMarkdown>
+                            <ReactMarkdown components={{
+                                code(props) {
+                                    const { children, className, node, ...rest } = props
+                                    const match = /language-(\w+)/.exec(className || '')
+                                    return match ? (
+                                        <SyntaxHighlighter
+                                            {...rest}
+                                            PreTag="div"
+                                            language={match[1]}
+                                            style={codeStyle}
+                                        >{String(children).replace(/\n$/, '')}</SyntaxHighlighter>
+                                    ) : (
+                                        <code {...rest} className={className}>
+                                            {children}
+                                        </code>
+                                    )
+                                }
+                            }} rehypePlugins={[rehypeRaw]} >{post.content}</ReactMarkdown>
                         </div>
                     </Col>
                 </Row>
