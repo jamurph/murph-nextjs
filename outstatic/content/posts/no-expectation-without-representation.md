@@ -1,6 +1,6 @@
 ---
 title: 'No Expectation without Representation'
-status: 'published'
+status: 'draft'
 author:
   name: 'Jacob Murphy'
   picture: ''
@@ -18,4 +18,4 @@ Can be violated in multiple ways:
 - Decisions about *how*
 - Decisions about *when*
 
-Violating undermines informational brokerage truths
+Violating undermines informational brokerage truths.
