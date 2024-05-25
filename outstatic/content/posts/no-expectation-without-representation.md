@@ -1,6 +1,6 @@
 ---
 title: 'No Expectation without Representation'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jacob Murphy'
   picture: ''
